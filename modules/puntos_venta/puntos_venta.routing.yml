@@ -1,0 +1,6 @@
+hello_world:
+    path: /puntos_venta
+    defaults:
+        _controller: Drupal\puntos_venta\Controller\PuntosVentaController::hello
+    requirements:
+        _permission: 'access content'

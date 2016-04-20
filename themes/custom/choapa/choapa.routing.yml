@@ -1,0 +1,7 @@
+example.content:
+  path: '/choapa' 
+  defaults: 
+    _controller: '\Drupal\choapa\Controller\ChoapaController::content' 
+    _title: 'Hello World'
+  requirements: 
+    _permission: 'access content' 

@@ -1,0 +1,6 @@
+hello_world:
+    path: /horarios
+    defaults:
+        _controller: Drupal\horarios_destinos\Controller\HorariosDestinosController::hello
+    requirements:
+        _permission: 'access content'

@@ -1,0 +1,17 @@
+name: Choapa
+type: theme
+description: Choapa for Theme.
+package: Custom
+core: 8.x
+libraries:
+  - choapa/global-css
+  - choapa/global-js
+stylesheets-remove:
+  - core/assets/vendor/normalize-css/normalize.css
+  - core/modules/system/css/system.module.css
+  - core/modules/system/css/system.theme.css
+  - core/modules/views/css/views.module.css
+regions:
+  header: 'Header'
+  content: 'Content'
+  footer: 'Footer'

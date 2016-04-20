@@ -1,0 +1,5 @@
+name: Horarios y destinos
+type: module
+description: Horarios y destinos para página Choapa
+package: Custom
+core: 8.x

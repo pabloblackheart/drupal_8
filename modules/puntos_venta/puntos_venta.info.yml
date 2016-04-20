@@ -1,0 +1,5 @@
+name: Puntos de venta
+type: module
+description: Puntos de venta para página Choapa
+package: Custom
+core: 8.x

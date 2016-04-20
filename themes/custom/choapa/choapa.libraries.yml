@@ -1,0 +1,15 @@
+global-css:
+  css:
+    theme:
+      css/screen.css: {}
+
+global-js:
+  dependencies:
+    - core/jquery
+  js:
+    //maps.googleapis.com/maps/api/js?v=3: { type: external, minified: true }
+    js/jquery.validate.min: {}
+    js/jquery.placeholder.min.js: {}
+    js/modernizr.js: {}
+    js/jquery.flexslider-min.js: {}
+    js/functions.js: {}
